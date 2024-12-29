@@ -1,0 +1,18 @@
+.mydiv{
+    color: aqua;
+    border: 2px solid black;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
