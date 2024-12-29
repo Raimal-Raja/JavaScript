@@ -90,39 +90,3 @@ window.onload = function () {
     resetbtn.addEventListener("click", resetGame);
   };
 
-
-// window.onload = function () {
-//     // Get all elements with class 'box'
-//     let boxes = document.querySelectorAll(".box");
-//     let resetBtn = document.querySelector("#reset-btn");
-//     let turnO = true; // Changed from turn0 to turnO for clarity
-  
-//     const winPatterns = [
-//       [0, 1, 2],
-//       [0, 3, 6],
-//       [0, 4, 8],
-//       [1, 4, 7],
-//       [2, 5, 8],
-//       [3, 4, 5],
-//       [6, 7, 8],
-//     ];
-  
-//     // Check if boxes were found
-//     if (boxes.length === 0) {
-//         console.error("No elements with class 'box' were found!");
-//         return;
-//     }
-
-//     boxes.forEach((box) => {
-//       box.addEventListener("click", () => {
-//         console.log("box was clicked!");
-//         // Add your game logic here
-//         if (turnO) {
-//             box.innerText = "O";
-//         } else {
-//             box.innerText = "X";
-//         }
-//         turnO = !turnO;
-//       });
-//     });
-// };
