@@ -2,9 +2,9 @@
 
 JavaScript learning examples covering variables, control flow, functions, DOM manipulation, events, and small projects.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [DOM](DOM)
 - [Events](Events)
@@ -12,7 +12,6 @@ JavaScript learning examples covering variables, control flow, functions, DOM ma
 - [Loops-Strings](Loops-Strings)
 - [Operators-Conditions](Operators-Conditions)
 - [Projects](Projects)
-- [README.md](README.md)
 - [Variables-Datatypes](Variables-Datatypes)
 
 ### Getting started
@@ -26,9 +25,15 @@ Browse the folders and linked notes above. This repository is a resource collect
 
 ### Configuration and limitations
 
+Run language exercises with Node.js and DOM/event examples in their HTML pages. Browser-only examples need document/window and cannot run directly in Node.js.
+
 ### Validation
 
-Reviewed on 2026-10-08. JavaScript source files passed node --check. Browser interaction and production builds were not verified.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. 59 JavaScript files passed node --check; JSX/TypeScript production builds were not run. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
