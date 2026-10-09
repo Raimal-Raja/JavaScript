@@ -29,11 +29,7 @@ Run language exercises with Node.js and DOM/event examples in their HTML pages. 
 
 ### Validation
 
-Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. 59 JavaScript files passed node --check; JSX/TypeScript production builds were not run. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
-
-### Repository description
-
-The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
+Recorded checks from the previous maintenance review (2026-10-08): 59 JavaScript files passed node --check; JSX/TypeScript production builds were not run. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
 
 ### Contributions
 
