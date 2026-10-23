@@ -1,40 +1,61 @@
-# JavaScript
+# JavaScript Fundamentals and Browser Projects
 
 JavaScript learning examples covering variables, control flow, functions, DOM manipulation, events, and small projects.
 
-## Setup and repository reference
+## Project focus
 
-### Project structure
+Learning / reference collection. Use the directory map to choose a focused example or learning topic instead of treating the repository as one application.
 
-- [DOM](DOM)
-- [Events](Events)
-- [Function-Methods](Function-Methods)
-- [Loops-Strings](Loops-Strings)
-- [Operators-Conditions](Operators-Conditions)
-- [Projects](Projects)
-- [Variables-Datatypes](Variables-Datatypes)
+## Workflow
 
-### Getting started
+```mermaid
+flowchart TD
+    A["Select a chapter or exercise"] --> B["Read the associated source or notes"]
+    B --> C["Run one example or notebook"]
+    C --> D{"Expected outcome?"}
+    D -->|Yes| E["Record findings and continue"]
+    D -->|No| F["Review assumptions and inputs"]
+    F --> B
+```
+
+The diagram describes how to work through the material; it is not a deployed service topology.
+
+## Repository structure
+
+| Path | Purpose |
+| --- | --- |
+| [`DOM/`](DOM) | Project-specific source, resources, or learning material. |
+| [`Events/`](Events) | Project-specific source, resources, or learning material. |
+| [`Function-Methods/`](Function-Methods) | Project-specific source, resources, or learning material. |
+| [`Loops-Strings/`](Loops-Strings) | Project-specific source, resources, or learning material. |
+| [`Operators-Conditions/`](Operators-Conditions) | Project-specific source, resources, or learning material. |
+| [`Projects/`](Projects) | Project-specific source, resources, or learning material. |
+| [`Variables-Datatypes/`](Variables-Datatypes) | Project-specific source, resources, or learning material. |
+
+## Getting started
 
 ```bash
 git clone https://github.com/Raimal-Raja/JavaScript.git
 cd JavaScript
 ```
 
-Browse the folders and linked notes above. This repository is a resource collection or documentation starter rather than a runnable application.
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
 
-### Configuration and limitations
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead.
 
-Run language exercises with Node.js and DOM/event examples in their HTML pages. Browser-only examples need document/window and cannot run directly in Node.js.
+Read an individual chapter or source file and run its examples independently. There is no single shared application entry point. Install only the dependencies used by the example you select.
 
-### Validation
+## Verification
 
-Recorded checks from the previous maintenance review (2026-10-08): 59 JavaScript files passed node --check; JSX/TypeScript production builds were not run. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+Use the setup commands and inspect the selected interface, example, or notebook with known inputs. This documentation review checks repository paths and dependency declarations; it does not claim fresh end-to-end execution or model-quality measurements.
 
-### Contributions
+## Contributing
 
-Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
+Include reproduction steps, the affected path, expected behavior, and the checks you ran. Keep credentials, generated environments, and unnecessary build artifacts out of commits.
 
-### License
+## License
 
-No top-level license file was found during this review.
+No top-level license file is currently tracked. Check reuse permissions with the repository owner.
